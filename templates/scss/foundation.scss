@@ -1,0 +1,61 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// This includes all of the foundation global elements that are needed to work with any of the other files.
+@import "framework/foundation/_foundation-global";
+
+// Site settings - edit this file to change foundation settings
+@import "settings";
+
+// Foundation Components
+@import "framework/normalize";
+
+@import
+  "framework/foundation/components/global",
+  "framework/foundation/components/grid",
+  "framework/foundation/components/visibility",
+  "framework/foundation/components/block-grid",
+  "framework/foundation/components/type",
+  "framework/foundation/components/buttons",
+  "framework/foundation/components/forms",
+  "framework/foundation/components/custom-forms",
+  "framework/foundation/components/button-groups",
+  "framework/foundation/components/dropdown-buttons",
+  "framework/foundation/components/split-buttons",
+  "framework/foundation/components/flex-video",
+  "framework/foundation/components/section",
+  "framework/foundation/components/top-bar",
+  "framework/foundation/components/orbit",
+  "framework/foundation/components/reveal",
+  "framework/foundation/components/joyride",
+  "framework/foundation/components/clearing",
+  "framework/foundation/components/alert-boxes",
+  "framework/foundation/components/breadcrumbs",
+  "framework/foundation/components/keystrokes",
+  "framework/foundation/components/labels",
+  "framework/foundation/components/inline-lists",
+  "framework/foundation/components/pagination",
+  "framework/foundation/components/panels",
+  "framework/foundation/components/pricing-tables",
+  "framework/foundation/components/progress-bars",
+  "framework/foundation/components/side-nav",
+  "framework/foundation/components/sub-nav",
+  "framework/foundation/components/switch",
+  "framework/foundation/components/magellan",
+  "framework/foundation/components/tables",
+  "framework/foundation/components/thumbs",
+  "framework/foundation/components/tooltips",
+  "framework/foundation/components/dropdown";
+
+// additonal resources
+//@import "font-awesome";
+
+// Main content
+
+// @import "base",
+// "layout",
+// "modules/module",
+// "state",
+// "theme",
+// "print",
+// "prototype";
